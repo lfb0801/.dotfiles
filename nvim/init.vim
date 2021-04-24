@@ -23,6 +23,8 @@ source ~/.dotfiles/nvim/config/settings.vim
 source ~/.dotfiles/nvim/config/startify.vim
 source ~/.dotfiles/nvim/config/ranger.vim
 source ~/.dotfiles/nvim/config/telescope.vim
+source ~/.dotfiles/nvim/config/coc.vim
+source ~/.dotfiles/nvim/config/autoclosing.vim
 
 " AIRLINE
 let g:airline#extensions#tabline#enabled = 1
@@ -30,19 +32,3 @@ let g:airline_theme='simple'
 
 " open Undotree 
 nnoremap <leader>u :UndotreeShow<CR>
-
-" COC
-nmap <silent> gr <Plug>(coc-references)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> <C-M> :CocAction<CR>
-
-" use <tab> for trigger completion and navigate to the next complete item
-function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~ '\s'
-endfunction
-
-inoremap <silent><expr> <Tab>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<Tab>" :
-      \ coc#refresh()
