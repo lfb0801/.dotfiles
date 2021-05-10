@@ -1,6 +1,7 @@
 nmap <silent> gr <Plug>(coc-references)
 nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> <C-M> :CocAction<CR>
+nmap <silent> ga <CMD>:CocAction<CR>
+nmap <silent> gd <Plug>(coc-file_browser)
 
 " use <tab> for trigger completion and navigate to the next complete item
 function! s:check_back_space() abort

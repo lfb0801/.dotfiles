@@ -3,7 +3,6 @@ colorscheme gruvbox
 
 call plug#begin("~/.config/nvim/plugged")
 Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 Plug 'mbbill/undotree'
 Plug 'chrisbra/vim-commentary'
@@ -16,6 +15,9 @@ Plug 'nvim-telescope/telescope-symbols.nvim'
 Plug 'mhinz/vim-startify', {'branch': 'center'}
 Plug 'francoiscabrol/ranger.vim'
 Plug 'rbgrouleff/bclose.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'simeji/winresizer'
 call plug#end()
 
 source ~/.dotfiles/nvim/config/shortcuts.vim
@@ -28,7 +30,9 @@ source ~/.dotfiles/nvim/config/autoclosing.vim
 
 " AIRLINE
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='simple'
+let g:airline_theme= 'dark'
 
-" open Undotree 
+" open Undotree
 nnoremap <leader>u :UndotreeShow<CR>
+nnoremap + <CMD>:vertical resize +5<CR>
+nnoremap - <CMD>:vertical resize -5<CR>
