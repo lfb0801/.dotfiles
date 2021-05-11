@@ -1,6 +1,3 @@
-
-nnoremap <C-b>k :Telescope buffers<CR>
-
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope git_files<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>

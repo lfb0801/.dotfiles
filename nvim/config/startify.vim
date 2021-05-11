@@ -1,5 +1,4 @@
 nnoremap <leader>; <cmd>Startify<cr>
-autocmd BufDelete * if empty(filter(tabpagebuflist(), '!buflisted(v:val)')) | Startify | endif
 
 let g:startify_lists = [{ 'type': 'commands', 'header': []}]
 
