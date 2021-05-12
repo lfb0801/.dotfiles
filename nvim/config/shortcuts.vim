@@ -4,7 +4,7 @@ nnoremap <C-k> :wincmd k<CR>
 nnoremap <C-L> :wincmd l<CR>
 
 nnoremap <LEADER>v :vsplit<CR>
-nnoremap <LEADER>h :split<CR>
+nnoremap <LEADER>h :bo split<CR>
 
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv

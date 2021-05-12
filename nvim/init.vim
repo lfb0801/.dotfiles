@@ -34,5 +34,3 @@ let g:airline_theme= 'dark'
 
 " open Undotree
 nnoremap <leader>u :UndotreeShow<CR>
-nnoremap + <CMD>:vertical resize +5<CR>
-nnoremap - <CMD>:vertical resize -5<CR>
