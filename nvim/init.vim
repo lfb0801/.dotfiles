@@ -18,6 +18,7 @@ Plug 'rbgrouleff/bclose.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'simeji/winresizer'
+Plug 'AndrewRadev/splitjoin.vim', {'branch': 'java-support'}
 call plug#end()
 
 source ~/.dotfiles/nvim/config/shortcuts.vim
