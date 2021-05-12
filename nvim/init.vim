@@ -35,3 +35,6 @@ let g:airline_theme= 'dark'
 
 " open Undotree
 nnoremap <leader>u :UndotreeShow<CR>
+
+nnoremap <silent> (s :SplitjoinSplit<cr>
+nnoremap <silent> (j :SplitjoinJoin<cr>
