@@ -2,6 +2,9 @@ let mapleader = " "
 colorscheme gruvbox
 
 call plug#begin("~/.config/nvim/plugged")
+Plug 'pechorin/any-jump.vim'
+Plug 'mhinz/vim-signify'
+Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'morhetz/gruvbox'
 Plug 'mbbill/undotree'
@@ -28,13 +31,12 @@ source ~/.dotfiles/nvim/config/ranger.vim
 source ~/.dotfiles/nvim/config/telescope.vim
 source ~/.dotfiles/nvim/config/coc.vim
 source ~/.dotfiles/nvim/config/autoclosing.vim
+source ~/.dotfiles/nvim/config/nerdtree.vim
+source ~/.dotfiles/nvim/config/any-jump.vim
 
 " AIRLINE
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme= 'dark'
 
-" open Undotree
-nnoremap <leader>u :UndotreeShow<CR>
-
-nnoremap <silent> (s :SplitjoinSplit<cr>
-nnoremap <silent> (j :SplitjoinJoin<cr>
+" default updatetime 4000ms is not good for async update
+set updatetime=100

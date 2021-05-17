@@ -5,6 +5,7 @@ nnoremap <C-L> :wincmd l<CR>
 
 nnoremap <LEADER>v :vsplit<CR>
 nnoremap <LEADER>h :bo split<CR>
+nnoremap <C-Q> :close<CR>
 
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
@@ -21,3 +22,9 @@ imap <C-E> <CMD>lua require'telescope.builtin'.symbols{ sources = {'emoji', 'kao
 
 nnoremap ; :
 nnoremap : ;
+
+" open Undotree
+nnoremap <leader>u :UndotreeShow<CR>
+
+nnoremap <silent> (s :SplitjoinSplit<cr>
+nnoremap <silent> (j :SplitjoinJoin<cr>
