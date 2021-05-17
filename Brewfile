@@ -7,11 +7,13 @@ brew "cask"
 brew "gh"
 brew "lua"
 brew "highlight"
-brew "jenv"
-brew "maven"
 brew "neovim", args: ["HEAD"]
 brew "node"
 brew "tree"
-brew "spring-io/tap/spring-boot"
 cask "font-hack-nerd-font"
 cask "iterm2"
+
+# These lines wouldn't be necessary for a non java programmer
+brew "spring-io/tap/spring-boot"
+brew "jenv"
+brew "maven"
