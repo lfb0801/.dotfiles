@@ -22,6 +22,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'simeji/winresizer'
 Plug 'AndrewRadev/splitjoin.vim', {'branch': 'java-support'}
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 source ~/.dotfiles/nvim/config/shortcuts.vim
