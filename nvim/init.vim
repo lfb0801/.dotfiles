@@ -39,4 +39,4 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme= 'dark'
 
 " default updatetime 4000ms is not good for async update
-set updatetime=100
+set updatetime=500
