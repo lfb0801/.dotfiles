@@ -32,6 +32,7 @@ source ~/.dotfiles/nvim/config/coc.vim
 source ~/.dotfiles/nvim/config/autoclosing.vim
 source ~/.dotfiles/nvim/config/nerdtree.vim
 source ~/.dotfiles/nvim/config/any-jump.vim
+source ~/.dotfiles/nvim/config/fugitive.vim
 
 " AIRLINE
 let g:airline#extensions#tabline#enabled = 1
