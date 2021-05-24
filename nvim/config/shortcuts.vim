@@ -12,11 +12,11 @@ vnoremap K :m '<-2<CR>gv=gv
 
 nnoremap <TAB> :bnext<CR>
 nnoremap <LEADER><TAB> :bprevious<CR>
-nnoremap <DELETE> :bdelete<CR>
+nnoremap <DELETE> :Bclose!<CR>
 
 nnoremap <LEADER>t :bo vsplit<CR> :terminal<CR> i
 tnoremap <ESC> <C-\><C-N>
-tnoremap <DELETE> <C-\><C-N> :bd!<CR> :bd!<CR>
+tnoremap <DELETE> <C-\><C-N> :bd!<CR> :q<CR>
 
 imap <C-E> <CMD>lua require'telescope.builtin'.symbols{ sources = {'emoji', 'kaomoji'} }<CR>
 

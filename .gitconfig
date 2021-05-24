@@ -3,3 +3,5 @@
 [user]
 	name = Lloyd van Zaalen
 	email = lfb0801@gmail.com
+[pull]
+	rebase = true

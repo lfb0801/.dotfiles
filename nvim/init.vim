@@ -1,4 +1,4 @@
-let mapleader = " "
+﻿let mapleader = " "
 colorscheme gruvbox
 
 call plug#begin("~/.config/nvim/plugged")
@@ -16,18 +16,17 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-symbols.nvim'
 Plug 'mhinz/vim-startify', {'branch': 'center'}
-Plug 'francoiscabrol/ranger.vim'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'simeji/winresizer'
 Plug 'AndrewRadev/splitjoin.vim', {'branch': 'java-support'}
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 source ~/.dotfiles/nvim/config/shortcuts.vim
 source ~/.dotfiles/nvim/config/settings.vim
 source ~/.dotfiles/nvim/config/startify.vim
-source ~/.dotfiles/nvim/config/ranger.vim
 source ~/.dotfiles/nvim/config/telescope.vim
 source ~/.dotfiles/nvim/config/coc.vim
 source ~/.dotfiles/nvim/config/autoclosing.vim

@@ -4,7 +4,7 @@ let g:startify_lists = [{ 'type': 'commands', 'header': []}]
 
 let g:startify_commands = [
 			\ { 'f': ['find file', 'Telescope git_files']},
-			\ { 'r': ['open ranger', 'Ranger']},
+			\ { 'd': ['open directory', 'NERDTree']},
 			\ { 's': ['settings','ex ~/.config/nvim/init.vim']},
 			\ ]
 
