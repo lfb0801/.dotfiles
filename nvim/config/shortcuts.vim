@@ -11,7 +11,7 @@ vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 
 nnoremap <TAB> :bnext<CR>
-nnoremap <LEADER><TAB> :bprevious<CR>
+nnoremap <S-TAB> :bprevious<CR>
 nnoremap <DELETE> :bdelete<CR>
 
 nnoremap <LEADER>t :bo vsplit<CR> :terminal<CR> i
