@@ -1,11 +1,16 @@
 inoremap (; ();<left><left>
-inoremap [; [];<left><left>
 inoremap ( ()<left>
+inoremap () ()
+inoremap [; [];<left><left>
 inoremap [ []<left>
+inoremap [] []
 inoremap {<cr> {<cr>}<esc>O
 inoremap (<cr> (<cr>)<esc>O
 inoremap [<cr> [<cr>]<esc>O
 inoremap " ""<left>
+inoremap "" ""
 inoremap ' ''<left>
+inoremap '' ''
 inoremap ` ``<left>
+inoremap `` ``
 inoremap ``` ```<cr>```<esc>O

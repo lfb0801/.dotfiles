@@ -16,7 +16,7 @@ nnoremap <DELETE> :bdelete<CR>
 
 nnoremap <LEADER>t :bo vsplit<CR> :terminal<CR> i
 tnoremap <ESC> <C-\><C-N>
-tnoremap <DELETE> <C-\><C-N> :bd!<CR> :bd!<CR>
+tnoremap <DELETE> <C-\><C-N> :bd!<CR> :q<CR>
 
 imap <C-E> <CMD>lua require'telescope.builtin'.symbols{ sources = {'emoji', 'kaomoji'} }<CR>
 
