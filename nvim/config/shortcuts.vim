@@ -26,5 +26,7 @@ nnoremap : ;
 " open Undotree
 nnoremap <leader>u :UndotreeShow<CR>
 
+nnoremap <C-R> :Rg<CR>
+
 nnoremap <silent> (s :SplitjoinSplit<cr>
 nnoremap <silent> (j :SplitjoinJoin<cr>
