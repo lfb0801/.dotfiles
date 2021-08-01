@@ -2,7 +2,7 @@ call plug#begin("~/.config/nvim/plugged")
 
 Plug 'AndrewRadev/splitjoin.vim', {'branch': 'java-support'}
 Plug 'chrisbra/vim-commentary'
-Plug 'morhetz/gruvbox'
+Plug 'gruvbox-community/gruvbox'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree'
