@@ -1,5 +1,4 @@
 ﻿let mapleader = " "
-colorscheme gruvbox
 
 source ~/.dotfiles/nvim/config/plugins.vim
 source ~/.dotfiles/nvim/config/shortcuts.vim

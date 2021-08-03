@@ -8,3 +8,5 @@ set undofile undodir=~/.dotfiles/nvim/undodir
 set incsearch noshowmode
 set scrolloff=10
 set completeopt=menuone,noinsert,noselect
+
+colorscheme gruvbox
