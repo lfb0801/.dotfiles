@@ -6,4 +6,7 @@
 [pull]
 	rebase = true
 [alias]
-	adog = log --all --decorate --oneline --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all 
+	adog = log --all --decorate --oneline --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'
+	what-ignored = check-ignore . -v
+[help]
+	autoCorrect = 20

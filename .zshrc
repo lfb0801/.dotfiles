@@ -108,5 +108,5 @@ export PATH="/opt/homebrew/opt/luajit-openresty/bin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
-export JAVA_HOME="$HOME/.jenv/versions/15.0.2"
-alias jenv_set_java_home='export JAVA_HOME="$HOME/.jenv/versions/15.0.2"'
+export JAVA_HOME="$HOME/.jenv/versions/17.0.5"
+alias jenv_set_java_home='export JAVA_HOME="$HOME/.jenv/versions/17.0.5"'
